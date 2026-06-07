@@ -1,0 +1,24 @@
+# meok-uk-phv-tfl-mcp
+
+> UK Private Hire Vehicle + Hackney Carriage + TfL licensing compliance. PHV driver + vehicle + operator licences, DBS, safeguarding, journey records. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- check_phv_driver_licence
+- check_phv_vehicle_licence
+- check_phv_operator_licence
+- check_dbs_enhanced_3year
+- check_meds_topographical
+- check_safeguarding_training
+- audit_journey_record_keeping
+- prepare_tfl_inspection_pack
+
+## Install
+```
+pip install meok-uk-phv-tfl-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-uk-phv-tfl-mcp/
+- Docs: https://meok.ai

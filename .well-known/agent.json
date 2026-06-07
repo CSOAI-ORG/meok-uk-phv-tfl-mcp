@@ -1,0 +1,95 @@
+{
+  "name": "meok-uk-phv-tfl-mcp",
+  "description": "UK Private Hire Vehicle + Hackney Carriage + TfL licensing compliance. PHV driver + vehicle +",
+  "url": "https://proofof.ai/scorecard/meok-uk-phv-tfl-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_phv_driver_licence",
+      "name": "Check Phv Driver Licence",
+      "description": "check_phv_driver_licence via meok-uk-phv-tfl-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_phv_vehicle_licence",
+      "name": "Check Phv Vehicle Licence",
+      "description": "check_phv_vehicle_licence via meok-uk-phv-tfl-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_phv_operator_licence",
+      "name": "Check Phv Operator Licence",
+      "description": "check_phv_operator_licence via meok-uk-phv-tfl-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_dbs_enhanced_3year",
+      "name": "Check Dbs Enhanced 3Year",
+      "description": "check_dbs_enhanced_3year via meok-uk-phv-tfl-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_meds_topographical",
+      "name": "Check Meds Topographical",
+      "description": "check_meds_topographical via meok-uk-phv-tfl-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_safeguarding_training",
+      "name": "Check Safeguarding Training",
+      "description": "check_safeguarding_training via meok-uk-phv-tfl-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "audit_journey_record_keeping",
+      "name": "Audit Journey Record Keeping",
+      "description": "audit_journey_record_keeping via meok-uk-phv-tfl-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "prepare_tfl_inspection_pack",
+      "name": "Prepare Tfl Inspection Pack",
+      "description": "prepare_tfl_inspection_pack via meok-uk-phv-tfl-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

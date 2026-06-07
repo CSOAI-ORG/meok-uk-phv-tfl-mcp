@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.CSOAI-ORG/meok-uk-phv-tfl-mcp",
+  "description": "UK Private Hire Vehicle + Hackney Carriage + TfL licensing compliance. PHV driver + vehicle +",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/CSOAI-ORG/meok-uk-phv-tfl-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "identifier": "meok-uk-phv-tfl-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "registryType": "pypi",
+      "runtimeHint": "python"
+    }
+  ]
+}

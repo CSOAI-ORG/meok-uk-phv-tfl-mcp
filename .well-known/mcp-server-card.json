@@ -1,0 +1,37 @@
+{
+  "name": "meok-uk-phv-tfl-mcp",
+  "title": "Meok Uk Phv Tfl Mcp",
+  "description": "UK Private Hire Vehicle + Hackney Carriage + TfL licensing compliance. PHV driver + vehicle + operator licences, DBS, safeguarding, journey records. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "check_phv_driver_licence"
+    },
+    {
+      "name": "check_phv_vehicle_licence"
+    },
+    {
+      "name": "check_phv_operator_licence"
+    },
+    {
+      "name": "check_dbs_enhanced_3year"
+    },
+    {
+      "name": "check_meds_topographical"
+    },
+    {
+      "name": "check_safeguarding_training"
+    },
+    {
+      "name": "audit_journey_record_keeping"
+    },
+    {
+      "name": "prepare_tfl_inspection_pack"
+    }
+  ]
+}

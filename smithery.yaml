@@ -1,0 +1,34 @@
+name: meok-uk-phv-tfl-mcp
+description: 'UK Private Hire Vehicle + Hackney Carriage + TfL licensing compliance. PHV driver + vehicle +'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-uk-phv-tfl-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_phv_driver_licence
+  description: check phv driver licence
+- name: check_phv_vehicle_licence
+  description: check phv vehicle licence
+- name: check_phv_operator_licence
+  description: check phv operator licence
+- name: check_dbs_enhanced_3year
+  description: check dbs enhanced 3year
+- name: check_meds_topographical
+  description: check meds topographical
+- name: check_safeguarding_training
+  description: check safeguarding training
+- name: audit_journey_record_keeping
+  description: audit journey record keeping
+- name: prepare_tfl_inspection_pack
+  description: prepare tfl inspection pack
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'
