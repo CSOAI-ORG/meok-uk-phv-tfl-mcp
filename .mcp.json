@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-uk-phv-tfl-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-uk-phv-tfl-mcp"
+      ]
+    }
+  }
+}
