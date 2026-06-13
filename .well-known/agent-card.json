@@ -1,0 +1,160 @@
+{
+  "name": "Meok Uk Phv Tfl Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-uk-phv-tfl-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "UK Private Hire Vehicle + Hackney Carriage + TfL licensing compliance. PHV driver + vehicle + operator licences, DBS, safeguarding, journey records. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "check_phv_driver_licence",
+      "name": "Check Phv Driver Licence",
+      "description": "Check Phv Driver Licence — a tool of the meok-uk-phv-tfl-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_phv_vehicle_licence",
+      "name": "Check Phv Vehicle Licence",
+      "description": "Check Phv Vehicle Licence — a tool of the meok-uk-phv-tfl-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_phv_operator_licence",
+      "name": "Check Phv Operator Licence",
+      "description": "Check Phv Operator Licence — a tool of the meok-uk-phv-tfl-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_dbs_enhanced_3year",
+      "name": "Check Dbs Enhanced 3Year",
+      "description": "Check Dbs Enhanced 3Year — a tool of the meok-uk-phv-tfl-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_meds_topographical",
+      "name": "Check Meds Topographical",
+      "description": "Check Meds Topographical — a tool of the meok-uk-phv-tfl-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_safeguarding_training",
+      "name": "Check Safeguarding Training",
+      "description": "Check Safeguarding Training — a tool of the meok-uk-phv-tfl-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "audit_journey_record_keeping",
+      "name": "Audit Journey Record Keeping",
+      "description": "Audit Journey Record Keeping — a tool of the meok-uk-phv-tfl-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "prepare_tfl_inspection_pack",
+      "name": "Prepare Tfl Inspection Pack",
+      "description": "Prepare Tfl Inspection Pack — a tool of the meok-uk-phv-tfl-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-uk-phv-tfl-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
