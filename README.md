@@ -92,3 +92,8 @@ compliance charter.
 - 🌐 The whole map: **<https://meok.ai/constellation>**
 - 🛡️ AI governance & certification: **<https://councilof.ai>** · **<https://csoai.org>**
 - ✅ Verify any signed report: **<https://meok.ai/verify>**
+
+## See also
+
+MEOK compliance MCP fleet:
+[`meok-vehicle-handover-mcp`](https://github.com/CSOAI-ORG/meok-vehicle-handover-mcp)
