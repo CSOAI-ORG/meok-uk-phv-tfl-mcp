@@ -32,12 +32,11 @@ pip install meok-uk-phv-tfl-mcp
 | `audit_journey_record_keeping` | 2-year TfL / 1-year council retention |
 | `prepare_tfl_inspection_pack` | Unannounced TfL TPH visit prep |
 
-## Pricing
+## How MEOK charges
 
-- **Free** — MIT self-host
-- **Starter** — £29/mo
-- **Pro** — £79/mo (multi-driver + multi-vehicle)
-- **Fleet** — £499/mo (50+ drivers / vehicles, audit export)
+MEOK has no subscriptions and no tiers. You pay per job, and only when the agreed artifact has been delivered to you. There is no public price list. See <https://meok.ai/pricing>.
+
+This repository's source is MIT-licensed and free to self-host.
 
 ## Regulatory basis
 
